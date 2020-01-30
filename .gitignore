@@ -1,4 +1,12 @@
 # Prerequisites
+.vs*
+.vs/
+.git/
+*/Debug
+/Debug
+*x64
+*x32
+
 *.d
 
 # Compiled Object files
