@@ -20,10 +20,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\planet.h">
+    <ClInclude Include="headers\Colors.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="headers\Colors.h">
+    <ClInclude Include="headers\Display.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Physics.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

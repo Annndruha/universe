@@ -1,4 +1,5 @@
 #pragma once
+using namespace cv;
 
 Scalar Yellow(0, 255, 255);
 Scalar Grey(100, 100, 100);
@@ -6,7 +7,6 @@ Scalar Red(0, 0, 255);
 Scalar Green(0, 255, 0);
 Scalar Blue(255, 0, 0);
 Scalar LBlue(255, 170, 66);
-
 
 Scalar white(255, 255, 255);
 Scalar gray(128, 128, 128);
@@ -29,11 +29,3 @@ Scalar cyan(255, 255, 0);
 Scalar magneta(255, 0, 255);
 
 Scalar violet(255, 0, 128);
-
-Scalar Tmagneta(255, 68, 255);
-Scalar Tblue(255, 50, 50);
-Scalar Tred(30, 30, 255);
-Scalar Tyellow(30, 255, 255);
-Scalar Tgreen(30, 255, 30);
-Scalar Torange(0, 136, 255);
-Scalar Tcyan(255, 255, 68);
