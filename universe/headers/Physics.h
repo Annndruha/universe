@@ -8,7 +8,6 @@ int randint_gen(int a, int b)
 }
 int randdouble_gen(double a, double b)
 {
-	//std::uniform_int_distribution<double> distribution(a, b);
 	std::uniform_real_distribution<double> distribution(a, b);
 	Sleep(1);
 	return distribution(generator);
@@ -36,12 +35,12 @@ public:
 	}
 	CreatePlanet()
 	{
-		mass = randdouble_gen(100, 400);
-		radius = randdouble_gen(5, 20);
+		mass = randdouble_gen(50, 200);
+		radius = randdouble_gen(3, 16);
 		c_x = randint_gen(22, 1254);
 		c_y = randint_gen(22, 700);
-		v_x = randint_gen(-100, 100);
-		v_y = randint_gen(-100, 100);
+		v_x = randint_gen(-10, 10);
+		v_y = randint_gen(-10, 10);
 	}
 };
 

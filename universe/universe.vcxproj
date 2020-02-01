@@ -135,12 +135,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="source\MainSource.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="headers\Colors.h" />
     <ClInclude Include="headers\Display.h" />
     <ClInclude Include="headers\Physics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainSource.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
