@@ -19,6 +19,7 @@ public:
 	void start(String window_name);
 	void show(String window_name);
 	void draw_frame(CreatePlanet* pointer, int N);
+	void make_screenshot(String, int);
 	void clear_draw();
 };
 
@@ -92,6 +93,14 @@ void Display::draw_frame(CreatePlanet* pointer, int N)
 		}
 	}
 	merge_layers();
+}
+
+//Создание скриншота с номером n
+void Display::make_screenshot(String folder, int n) {
+	folder = folder + "/screen_"+std::to_string(n) + ".jpg";
+	//Mat dst;
+	//resize(out, dst, Size(600, 350), 0, 0, INTER_CUBIC);
+	imwrite(folder.c_str(), out);
 }
 
 // Очистка слоя draw
